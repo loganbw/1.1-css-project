@@ -16,11 +16,26 @@ colors:
 
   box-sizing:border-box;
 }
-
+#logo{
+  background-color: #FD8534;
+  display:block;
+  padding-left: 10px;
+}
 .main_navigation{
   color: #1fabe5;
+  padding: 30px;
+
 
 }
+.main_navigation a{
+  text-decoration: none;
+  border: 1px solid white;
+color:white;
+
+}
+
+
+
 
 nav{
   background-color: #FD8534;
@@ -30,10 +45,7 @@ height: 100px;
 }
 
 
-h2 {
-  color: #2CACE2;
-}
-h3 {
+h2, h3 {
   color: #2CACE2;
 }
 ul{
