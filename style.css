@@ -1,0 +1,41 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+* {
+
+  box-sizing:border-box;
+}
+
+.main_navigation{
+  color: #1fabe5;
+
+}
+
+nav{
+  background-color: #FD8534;
+display: block;
+width: 100%;
+height: 100px;
+}
+
+
+h2 {
+  color: #2CACE2;
+}
+h3 {
+  color: #2CACE2;
+}
+ul{
+  font-weight: bold;
+}
