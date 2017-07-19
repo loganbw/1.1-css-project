@@ -12,42 +12,113 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
+
 * {
-
-  box-sizing:border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
 }
-#logo{
-  background-color: #FD8534;
-  display:block;
-  padding-left: 10px;
+header {
+    background-color: #FD8534
 }
-.main_navigation{
-  color: #1fabe5;
-  padding: 30px;
-
-
+#logo {
+    display: block;
+    padding-left: 10px;
 }
-.main_navigation a{
-  text-decoration: none;
-  border: 1px solid white;
-color:white;
-
+.main_navigation {
+    color: #1fabe5;
+    padding: 30px;
 }
-
-
-
-
-nav{
-  background-color: #FD8534;
-display: block;
-width: 100%;
-height: 100px;
+.main_navigation a {
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    margin: 15px 2px;
+    padding: 10px 20px;
+    border-radius: 4px;
 }
-
-
-h2, h3 {
-  color: #2CACE2;
+body {
+    margin: 0px;
 }
-ul{
-  font-weight: bold;
+#page_content {
+    padding: 4px;
+    margin: 8px;
+}
+nav {
+    display: block;
+    width: 100%;
+}
+section:first-of-type {
+    border-top: 0px;
+    border-top-style: none;
+}
+section:last-of-type {
+    margin-top: 20px;
+}
+section {
+    border-top: 3px;
+    border-top-style: solid;
+    border-top-color: #DADADA;
+}
+thead td {
+    background-color: #2CACE2;
+    color: white;
+    border: 1px solid #0a5c7f;
+}
+h2,
+h3 {
+    color: #2CACE2;
+}
+ul {
+    font-weight: bold;
+}
+table,
+td {
+    border: 1px solid #2CACE2;
+    border-collapse: collapse;
+}
+td {
+    padding: 3px;
+}
+img {
+    transform: scale(.75);
+}
+form {
+    background-color: #EEE;
+    border: 1px;
+    padding: 15px;
+    border-radius: 4px;
+}
+.name {
+    background-color: #FD8534;
+    border-radius: 4px;
+    padding: 15px;
+    color: white;
+}
+#first_name {
+    height: 2em;
+    margin-right: 20px;
+    width: 25%;
+}
+#last_name {
+    height: 2em;
+    width: 25%;
+}
+.city_container {
+    padding: 10px;
+    font-weight: bold;
+}
+label[for="bio"] {
+    padding: 10px;
+    font-weight: bold;
+}
+#bio {
+    padding: 10px;
+}
+#submit_button {
+    background-color: #2CACE2;
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+    margin-top: 25px;
+    text-transform: uppercase;
 }
