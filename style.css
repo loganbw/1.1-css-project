@@ -37,8 +37,19 @@ header {
     border-radius: 4px;
 }
 body {
-    margin: 0px;
+    margin: auto;
+    width: 70%;
+background-image: url("img/bg.jpg");
+
 }
+body div{
+  background-color: white;
+}
+p a{
+  text-decoration: none;
+  color: #2CACE2;
+}
+
 #page_content {
     padding: 4px;
     margin: 8px;
@@ -75,18 +86,38 @@ table,
 td {
     border: 1px solid #2CACE2;
     border-collapse: collapse;
+
 }
 td {
     padding: 3px;
 }
-img {
+/*img {
     transform: scale(.75);
 }
+*/
 form {
     background-color: #EEE;
     border: 1px;
     padding: 15px;
     border-radius: 4px;
+}
+table td {
+  padding: 10px;
+
+}
+td img{
+ width: 60px;
+ height: 60px;
+
+}
+#page_content > section:nth-child(3) > form > div.city_container{
+  background-color: #EEE;
+}
+#page_content > section:nth-child(3) > form > div.submit_container{
+  background-color: #EEE;
+}
+#page_content > section:nth-child(3) > form > div:nth-child(3){
+  background-color: #EEE;
 }
 .name {
     background-color: #FD8534;
